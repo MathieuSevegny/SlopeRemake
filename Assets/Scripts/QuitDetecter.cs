@@ -13,6 +13,10 @@ public class QuitDetecter : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
+
+        Debug.Log("Sort de la plateforme");
+        
+
         ControlleurJeu.Instance.SortiDeStructure();
     }
 }

@@ -70,6 +70,7 @@ GameObject:
   - component: {fileID: 7772417537534726760}
   - component: {fileID: 7772417537534726761}
   - component: {fileID: 7772417537534726774}
+  - component: {fileID: 7096204624900766320}
   m_Layer: 0
   m_Name: Prism
   m_TagString: Jump
@@ -334,6 +335,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!54 &7096204624900766320
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7772417537534726775}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7772417538097563867
 GameObject:
   m_ObjectHideFlags: 0
